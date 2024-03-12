@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/Kuromy_nun/Desktop/FILESYOKAI/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "YokaiHardcore (Minecraft 1.19.2)",
+    "description": "YokaiHardcore Running Minecraft 1.19.2 (Forge v43.3.8)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "43.3.8"
+  },
+  "untrackedFiles": []
+}

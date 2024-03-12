@@ -1,0 +1,1298 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "YokaiHardcore-1.19.2",
+      "name": "YokaiHardcore (Minecraft 1.19.2)",
+      "description": "YokaiHardcore Running Minecraft 1.19.2 (Forge v43.3.8)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.8",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7375,
+            "MD5": "62483d83e1d83298d0b7e3b9aa82a287",
+            "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.8/lowcodelanguage-1.19.2-43.3.8.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.8",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "1e1981c0270abb9684e8c8251152dab5",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/versions/1.19.2-forge-43.3.8/1.19.2-forge-43.3.8.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.8",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113640,
+                "MD5": "e3e8101b443e6dcfcf3ca692c74326cb",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.8/fmlcore-1.19.2-43.3.8.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.8",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16492,
+                "MD5": "2da9fb882e9ac72201bbe3042d6a533d",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.8/javafmllanguage-1.19.2-43.3.8.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.8",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4984,
+                "MD5": "9dfca927d8a4c3997f4985ed7288e739",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.8/mclanguage-1.19.2-43.3.8.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.8:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2644668,
+                "MD5": "2812e513ce9b1330fd3e4f5638bb0682",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/forge/1.19.2-43.3.8/forge-1.19.2-43.3.8-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.8:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417677,
+                "MD5": "8ccbe310caff04a6342461f8b3ee8218",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/forge/1.19.2-43.3.8/forge-1.19.2-43.3.8-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.8",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261211,
+                "MD5": "a36fa35ece6baac0e7d74ee143add71e",
+                "url": "https://yokai-88026.web.app/FILESYOKAI/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.8/fmlloader-1.19.2-43.3.8.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dlovin.advancedcompass:advancedcompass:1.2.14@jar",
+          "name": "Advanced Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 490458,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/optionaloff/AdvancedCompas-forge-1.19.2-1.2.14.jar",
+            "MD5": "35db95a3abbd42fb548d345d7b3078d1"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:5.2.13@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77110785,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/optionaloff/AmbientSounds_FORGE_v5.2.13_mc1.19.2.jar",
+            "MD5": "653b0dc7669700ff68dee49bc8644229"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.obscuria:aquamirae:6.API15@jar",
+          "name": "Aquamirae",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17322001,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/aquamirae-6.API15.jar",
+            "MD5": "09675c402ee56c2db06f97f71d46698e"
+          }
+        },
+        {
+          "id": "com.min01:archaeology:1.0.0@jar",
+          "name": "Archaeology API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7669222,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/archaeology-api-1.19.2-1.0.0.jar",
+            "MD5": "fa73cc2b6e38cddade0ec13b4db64c67"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.5.85@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 546188,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/architectury-6.5.85-forge.jar",
+            "MD5": "8c8a7412575f897356823b928a5b8ca7"
+          }
+        },
+        {
+          "id": "net.mcreator:artefactos:1.0.0@jar",
+          "name": "Artefactos",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 441670,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/ARTEFACTOS2.0.jar",
+            "MD5": "28537d8c6e0f151236b7a2c638fe98a1"
+          }
+        },
+        {
+          "id": "net.smileycorp.atlas:atlaslib:1.1.5a@jar",
+          "name": "Atlas Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 97206,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Atlas-Lib-1.19.2-1.1.6.jar",
+            "MD5": "3ebe4778fbfc34e6d2dd054825e6dbc7"
+          }
+        },
+        {
+          "id": "io.github.foundationgames:automobility:0.4.2+1.19.2-forge@jar",
+          "name": "Automobility",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1051920,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/automobility-0.4.2+1.19.2-forge.jar",
+            "MD5": "5a49f58e47a5b3339a0e0b51f657b4fe"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.8.2-55@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45741,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/AutoRegLib-1.8.2-55.jar",
+            "MD5": "8d0cfc46ea0c7334ff511eff2bb3e9ce"
+          }
+        },
+        {
+          "id": "io.github.kosmx:bendylib:2.1.1@jar",
+          "name": "Bendy lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36623,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/bendy-lib-forge-2.1.1.jar",
+            "MD5": "58989d5ae5bec172a564f704d1a254a3"
+          }
+        },
+        {
+          "id": "net.mcreator.borninchaosv:born_in_chaos_v1:1.0.0@jar",
+          "name": "Born in Chaos ",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10265127,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/born_in_chaos_[Forge]1.19.2_1.10.1.jar",
+            "MD5": "47eb62fe469375cc716f0b4d9ba4afc0"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:1.19.2-3.0.0.6@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37254,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/caelus-forge-1.19.2-3.0.0.6.jar",
+            "MD5": "918f8c78474edc74a7b489b803124492"
+          }
+        },
+        {
+          "id": "com.mitosv:cinematic:1.19.2-1.0@jar",
+          "name": "Cinematic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 346069,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/cinematic-forge-1.19.2-1.0.jar",
+            "MD5": "25000b9b00a11d046275177f3dce294f"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.1.0@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3051038,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/citadel-2.1.0-1.19.jar",
+            "MD5": "59aca9d74a4fe9b7bdf835fbff23bb8a"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.2.88@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1151677,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/cloth-config-8.2.88-forge.jar",
+            "MD5": "9ad6b6c3b72a0d23d53c7b761782082b"
+          }
+        },
+        {
+          "id": "com.cgessinger.creaturesandbeasts:cnb:1.4.0@jar",
+          "name": "Creatures and Beasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1767755,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/CNB-1.19-1.4.0.jar",
+            "MD5": "c9621fbf9bfe1ddf1ab31f84ca47696a"
+          }
+        },
+        {
+          "id": "net.combatroll:combatroll:1.0.8+1.19@jar",
+          "name": "Combat Roll",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186989,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/combatroll-forge-1.0.8+1.19.jar",
+            "MD5": "1b8629e556a41dd92bcfd89d1e3104e1"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.19.2-1.3.6@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61734,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/coroutil-forge-1.19.2-1.3.6.jar",
+            "MD5": "0dbb313af302707144a2fd4695a05913"
+          }
+        },
+        {
+          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.19.2-v1a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87648,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/CosmeticArmorReworked-1.19.2-v1a.jar",
+            "MD5": "04e67c8f93e7121efb0b34d96db6370c"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.9.3@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 917024,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/CreativeCore_FORGE_v2.9.3_mc1.19.2.jar",
+            "MD5": "7677ca8cf53d06465d538e54fafb32cf"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.4.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 278432,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.4.1.jar",
+            "MD5": "e8e9c74b092e40d8bb4e5bd5c5ddb0c4"
+          }
+        },
+        {
+          "id": "com.tom:cpm:0.6.5a@jar",
+          "name": "Customizable Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1973372,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/CustomPlayerModels-1.19-0.6.5a.jar",
+            "MD5": "0ed38fb513c6ab9cee75c25d3ef1db44"
+          }
+        },
+        {
+          "id": "com.github.dragoni7:dreamland:1.2.0.5@jar",
+          "name": "Dreamland",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5980937,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Dreamland-forge-1.19.2-1.2.0.5.jar",
+            "MD5": "2164e2a6477deea69116a851faefce2e"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.52-1.19.2@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5426616,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/DungeonsArise-1.19.2-2.1.52-beta.jar",
+            "MD5": "6f15638eec06f9121bd9be24e6b58737"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:1.2.0@jar",
+          "name": "Bo's Easy NPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 444759,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/easy_npc_1.19.2-1.2.0.jar",
+            "MD5": "84677b56906b8654f9555a0a592d18bb"
+          }
+        },
+        {
+          "id": "fuzs.easymagic:easymagic:4.3.3@jar",
+          "name": "Easy Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102571,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/EasyMagic-v4.3.3-1.19.2-Forge.jar",
+            "MD5": "910be6dc248971ebf50c0f15dd740334"
+          }
+        },
+        {
+          "id": "com.matyrobbrt:eatinganimation:3.0.0@jar",
+          "name": "Eating Animation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277447,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/eatinganimation-1.19-3.2.0.jar",
+            "MD5": "00a6fba878e4af566732255d5742ef98"
+          }
+        },
+        {
+          "id": "com.hrznstudio:emojiful:4.0.5@jar",
+          "name": "Emojiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260759,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Emojiful-Forge-1.19.2-4.0.5-all.jar",
+            "MD5": "0dc5d349039bf0088bf59ebfa5429de3"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.47@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 673711,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/emotecraft-for-MC1.19.2-2.2.7-b.build.47-forge.jar",
+            "MD5": "5101fd1b0c6e37a6010f05a9d0960789"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:1.1.0@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 289655,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/entity_model_features_forge_1.19.2-1.1.0.jar",
+            "MD5": "6ece7f0f08e0e9fcddcd806386e62a14"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:4.6.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522121,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/entity_texture_features_forge_1.19.2-4.6.1.jar",
+            "MD5": "3c4e91d02c9cf4baaac51e4b413cd879"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:19.5.21@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5676661,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/EpicFight-19.5.21.jar",
+            "MD5": "b2b84a2f15b3940575ed65976a303148"
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:1.3.0@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 121248,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/optionaloff/Falling-Leaves-Mod-Forge-1.19.2.jar",
+            "MD5": "1735b98f2e0162d433067e83cc2b98f9"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "nick1st.fancyvideo:fancyvideo_api:2.2.0.1@jar",
+          "name": "FancyVideo API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19006990,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/FancyVideo-API-forge-2.2.0.1.jar",
+            "MD5": "61b50efba44327144640f822d5322785"
+          }
+        },
+        {
+          "id": "net.mcreator:comida:1.0.0@jar",
+          "name": "Comida",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 274952,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Food%20kuromy.jar",
+            "MD5": "1da3e949a71a272ed690610a60dcc031"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1902.4.1-build.236@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 603296,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/ftb-library-forge-1902.4.1-build.236.jar",
+            "MD5": "ab990dddbef322a053b9812a44d4439f"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:1902.5.7-build.326@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1107569,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/ftb-quests-forge-1902.5.7-build.326.jar",
+            "MD5": "e41165f47eccb65b48f1904e4ddbf8bc"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1902.2.14-build.123@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220052,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/ftb-teams-forge-1902.2.14-build.123.jar",
+            "MD5": "ce64d31414b490c35accc53c1c506c52"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.1.40@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2938383,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
+            "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "com.yellowbrossproductions:illageandspillage:1.2.4@jar",
+          "name": "Illage And Spillage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15094443,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/illageandspillage-1.19.2-1.2.4.jar",
+            "MD5": "38ab3d94a0ce1b08f6fc268674282ff2"
+          }
+        },
+        {
+          "id": "com.pikachu.mod.illager_more:illager_additions:1.19-test-build@jar",
+          "name": "Illager Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1137012,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/illager_additions-1.19-0.1.6.5-beta.jar",
+            "MD5": "ddfd5e8d8368d5355ce0642850b35caa"
+          }
+        },
+        {
+          "id": "ladysnake.illuminations.client:illuminations:1.19.2-1.10.9.20@jar",
+          "name": "Illuminations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 389313,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/illuminations-forge-1.19.2-1.10.9.20.jar",
+            "MD5": "9eb1b85648e2f5b44697e787a284a935"
+          }
+        },
+        {
+          "id": "net.stardustlabs:incendium:5.1.0@jar",
+          "name": "Incendium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6130097,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Incendium_v5.1.3a.jar",
+            "MD5": "9ac25f9801e5626ea7af0b5db97d9522"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1902.2.9-build.51@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115504,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/item-filters-forge-1902.2.9-build.51.jar",
+            "MD5": "c1c9004b681fd6ac0527112f62c8e200"
+          }
+        },
+        {
+          "id": "net.mcreator.itemsdedinoflyu:items_de_dinoflyu:1.0.0@jar",
+          "name": "Items de DINOFLY7u7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23004262,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/ITEMS_DE_DINOFLY2.0.jar",
+            "MD5": "b84f85e9d9ee4f870068d31fdd09979e"
+          }
+        },
+        {
+          "id": "net.mcreator.knightquest:knight_quest:1.2.6@jar",
+          "name": "Knight Quest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2076446,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/KnightQuest1.2.6.Patch.jar",
+            "MD5": "845e1096a71ce5b50865f5e47a20f5d5"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.0@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39387946,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/L_Enders_Cataclysm-1.90%20tongue%20fixed-1.19.2.jar",
+            "MD5": "ed64c950f0a2747edab62bc31cc451c9"
+          }
+        },
+        {
+          "id": "kowi2003.lasermod:lasermod:1.0.1@jar",
+          "name": "KOWI's Laser Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1267630,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/lasermod-1.19-1.0.1a.jar",
+            "MD5": "e43dc1514b5aa4f3fdc7b3ad1f6301eb"
+          }
+        },
+        {
+          "id": "fuzs.leavemybarsalone:leavemybarsalone:4.0.0@jar",
+          "name": "Leave My Bars Alone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63435,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/LeaveMyBarsAlone-v4.0.0-1.19.2-Forge.jar",
+            "MD5": "332275abfc77158e837211aedd3ccaee"
+          }
+        },
+        {
+          "id": "stepsword.mahoutsukai:mahoutsukai:1.19.2-v1.34.34@jar",
+          "name": "Mahou Tsukai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3930766,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/mahoutsukai-1.19.2-v1.34.34.jar",
+            "MD5": "c404b662640df03a74d9a05dfba47bf2"
+          }
+        },
+        {
+          "id": "net.montoyo.mcef:forgecef:1.2.5@jar",
+          "name": "MCEF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395062,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/mcef-1.2.5.jar",
+            "MD5": "54cd59ffca34be8e156392697e120a5f"
+          }
+        },
+        {
+          "id": "net.minecraftcapes:minecraftcapes:12.3.6@jar",
+          "name": "MinecraftCapes Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42882,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/optionaloff/MinecraftCapes+Forge+1.19.2-12.3.6.jar",
+            "MD5": "dc1a06a5fc466dacdeb9a560ad771bff"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "io.github.jodlodi.minions:minions_remastered:1.2-BETA@jar",
+          "name": "Minions Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194204,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/minions_remastered-1.2-BETA%20(1).jar",
+            "MD5": "44ea3844221204306c4f4ebdb07eae88"
+          }
+        },
+        {
+          "id": "com.alexander:mutantmore:1.0@jar",
+          "name": "Mutant More",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18748190,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/mutantmore-1.19.2-early-access-1.0.7.jar",
+            "MD5": "d4308a924afe59c82e21fe417de97af7"
+          }
+        },
+        {
+          "id": "com.yahoo.chirpycricket:mythicmounts:19.2-7.3-forge@jar",
+          "name": "MythicMounts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4371070,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/mythicmounts-19.2-7.2.1-forge.jar",
+            "MD5": "1a662614256df8108facda7cab91f9f1"
+          }
+        },
+        {
+          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
+          "name": "Obscure API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 964152,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/obscure_api-15.jar",
+            "MD5": "fad9871533c751a9d6afad3180113cf4"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "io.github.apace100:origins:1.19.2-1.7.1.3@jar",
+          "name": "Origins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1934732,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/origins-forge-1.19.2-1.7.1.3-all.jar",
+            "MD5": "a018d303c86543adb6380696e22cb685"
+          }
+        },
+        {
+          "id": "tictim.paraglider:paraglider:1.7.0.4@jar",
+          "name": "Paraglider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380668,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Paraglider-1.19.2-1.7.0.4.jar",
+            "MD5": "6e7357bb21a9e15a4b568a07e8a0ef86"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.19.2-77@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 635370,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Patchouli-1.19.2-77.jar",
+            "MD5": "5727784bad9e215a74a64107c1e45036"
+          }
+        },
+        {
+          "id": "tech.thatgravyboat:persona:2.0.0@jar",
+          "name": "Personas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244457,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/personas-2.0.0-forge.jar",
+            "MD5": "37c8f9333703a32c75a015443efd8c08"
+          }
+        },
+        {
+          "id": "net.mcreator:pets:1.0.0@jar",
+          "name": "Pets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 900274,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/PETS2.0.jar",
+            "MD5": "bd91c30044dcdd5fe2f8194ed6ea9130"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:0.4.2@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162071,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/player-animation-lib-forge-0.4.2.jar",
+            "MD5": "857338d52d26dc44466880ccf97bf7b3"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:4.4.0@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 393040,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/PuzzlesLib-v4.4.0-1.19.2-Forge.jar",
+            "MD5": "c7593c0c362fd546905a967cff16ade1"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:3.4-389@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14310605,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Quark-3.4-389.jar",
+            "MD5": "1414fba770df3ead95a3dcd53a334673"
+          }
+        },
+        {
+          "id": "net.regions_unexplored:regions_unexplored:0.4.1@jar",
+          "name": "Regions Unexplored",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4944807,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/RegionsUnexploredForge-0.4.1+1.19.2.jar",
+            "MD5": "ee7e71a8c9685e0857127ec948681b6b"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2c@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1407451,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/rubidium-mc1.19.2-0.6.2c.jar",
+            "MD5": "b9d54d5171598463ef4456083eeb3ce8"
+          }
+        },
+        {
+          "id": "net.mcreator:silverbirch:1.0.3@jar",
+          "name": "Silver Birch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319386,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/silver-birch-1.19.2-v6.jar",
+            "MD5": "82639c3d65393cdef11b2169bd869eff"
+          }
+        },
+        {
+          "id": "fonnymunkey.simplehats:simplehats:1.19.2-0.1.6@jar",
+          "name": "SimpleHats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1094362,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/simplehats-forge-1.19.2-0.1.6.jar",
+            "MD5": "2ad7efbff0f2457d33ce92f7d6da9f3f"
+          }
+        },
+        {
+          "id": "io.github.flemmli97:simplequests:1.19.2-1.3.1@jar",
+          "name": "Simple Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188429,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/simplequests-1.19.2-1.3.1-forge.jar",
+            "MD5": "ea18e92da70a4f53ab040a5bc18692c9"
+          }
+        },
+        {
+          "id": "com.modderg:tameablebeasts:2.0@jar",
+          "name": "Tameable Beasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1330396,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/tameablebeasts-1.19.2-3.0.jar",
+            "MD5": "0369d3876bdf94c5ba505d3b4089e8c3"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:2.0.1.136@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96499,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/TerraBlender-forge-1.19.2-2.0.1.136.jar",
+            "MD5": "ed2fe6eb99f5d399db71e71f209de2ac"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.3.8@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3050183,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Terralith_1.19.3_v2.3.8.jar",
+            "MD5": "aa87e8bdb5ebd50030308ecd2cab2002"
+          }
+        },
+        {
+          "id": "com.finallion:graveyard:2.5.3@jar",
+          "name": "The Graveyard",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13559075,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/The_Graveyard_2.5.3_(FORGE)_for_1.19.2..jar",
+            "MD5": "220203bf50bb917dd1513557ddbbfb85"
+          }
+        },
+        {
+          "id": "net.smileycorp:hordes:1.2.1a@jar",
+          "name": "The Hordes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 264208,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/The-Hordes-1.19.2-1.2.1a.jar",
+            "MD5": "83fb3e87aec9d1abd96aeb8deec347a8"
+          }
+        },
+        {
+          "id": "net.mcreator.totemsserverhardcore:kuromymod:1.0.0@jar",
+          "name": "Kuromy Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2385488,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/totems%20kuromy%202.0.jar",
+            "MD5": "49f4eeab600a37e202e34a3c94a31d55"
+          }
+        },
+        {
+          "id": "net.mcreator:ulterlands:1.2.1@jar",
+          "name": "Ulterlands",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11312973,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/Ulterlands+v1.2.1+_+19%20(1).jar",
+            "MD5": "36a978fd3229b0a57275fd755f75abe5"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.19.2-1.0.14@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162555,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/watut-forge-1.19.2-1.0.14.jar",
+            "MD5": "ccb8322313173892c7d14c69c69fa237"
+          }
+        },
+        {
+          "id": "com.sky:weaponmaster:1.4.2-1.19.2@jar",
+          "name": "Weapon Master",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3017522,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/weaponmaster-1.4.2-1.19.2.jar",
+            "MD5": "87e477c3a7ae1d4f5594fc926b9da1e5"
+          }
+        },
+        {
+          "id": "reascer.wom.main:wom:19.1.7.37@jar",
+          "name": "Weapons of Minecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10102831,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/WeaponsOfMiracles-19.1.7.37.jar",
+            "MD5": "8ccca09ba92f6f8812390c83fc3ef5a1"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:1.3.3@jar",
+          "name": "WebDisplays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 790605,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/webdisplays-1.3.3.jar",
+            "MD5": "ca1c0e258a8ccad31223cf757ba1d028"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3341,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/files/options.txt",
+            "MD5": "287d4272e292cb9dd0a0ec340263d717",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "TexturePack Base JuakoCl.zip",
+          "name": "TexturePack Base JuakoCl.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2751,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/files/resourcepacks/TexturePack%20Base%20JuakoCl.zip",
+            "MD5": "ebdf5821696356f3feb705e50270e56a",
+            "path": "resourcepacks/TexturePack Base JuakoCl.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7363201,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV80.2%C2%A7r%C2%A7l.zip",
+            "MD5": "3f41eebf6d0db064d56a6c56d77dd512",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip.txt",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 319,
+            "url": "https://yokai-88026.web.app/FILESYOKAI/servers/YokaiHardcore-1.19.2/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV80.2%C2%A7r%C2%A7l.zip.txt",
+            "MD5": "58522cec3bc72545f2ca8d9f31342254",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV80.2§r§l.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
